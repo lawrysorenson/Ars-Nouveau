@@ -158,8 +158,8 @@ public class EnchantingApparatusTile extends SingleItemTile implements Container
             return false;
         }
         IEnchantingRecipe recipe = this.getRecipe(catalyst, playerEntity);
-        if (recipe.consumesSource())
-            SourceUtil.takeSourceWithParticles(worldPosition, level, 10, recipe.getSourceCost());
+        if (recipe.consumesSource()) // does this even fail if there is not enough source around???
+            SourceUtil.takeMultiSourceWithParticles(worldPosition, level, 10, recipe.getSourceCost());
         this.isCrafting = true;
         updateBlock();
         Networking.sendToNearby(level, worldPosition, new PacketOneShotAnimation(worldPosition));

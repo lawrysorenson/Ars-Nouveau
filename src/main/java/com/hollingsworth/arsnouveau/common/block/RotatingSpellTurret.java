@@ -57,7 +57,7 @@ public class RotatingSpellTurret extends BasicSpellTurret {
         if (caster.getSpell().isEmpty())
             return;
         int manaCost = tile.getManaCost();
-        if (manaCost > 0 && SourceUtil.takeSourceWithParticles(pos, world, 10, manaCost) == null)
+        if (manaCost > 0 && SourceUtil.takeMultiSourceWithParticles(pos, world, 10, manaCost) == null)
             return;
         Networking.sendToNearby(world, pos, new PacketOneShotAnimation(pos));
         Position iposition = getDispensePosition(new BlockSourceImpl(world, pos), tile);

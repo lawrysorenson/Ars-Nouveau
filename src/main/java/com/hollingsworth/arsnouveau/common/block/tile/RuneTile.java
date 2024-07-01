@@ -127,8 +127,8 @@ public class RuneTile extends ModdedTile implements IAnimatable, ITickable, IToo
             level.destroyBlock(this.worldPosition, false);
         }
         if (!level.isClientSide) {
-            ISpecialSourceProvider provider = SourceUtil.takeSourceWithParticles(worldPosition, level, 10, 100);
-            if (provider != null) {
+            List<ISpecialSourceProvider> providers = SourceUtil.takeMultiSourceWithParticles(worldPosition, level, 10, 100);
+            if (providers != null) {
                 this.isCharged = true;
                 level.setBlockAndUpdate(worldPosition, level.getBlockState(worldPosition).cycle(RuneBlock.POWERED));
                 updateBlock();

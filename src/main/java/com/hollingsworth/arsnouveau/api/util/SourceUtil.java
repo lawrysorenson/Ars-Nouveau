@@ -65,6 +65,46 @@ public class SourceUtil {
     }
 
     /**
+     * Support spells with extremly large costs by allowing it to take from more than one provider at once
+     */
+    public static @Nullable List<ISpecialSourceProvider> takeMultiSource(BlockPos pos, Level level, int range, int source){
+        List<ISpecialSourceProvider> providers = canTakeSource(pos, level, range);
+        int testAvailable = source;
+        for(ISpecialSourceProvider provider : providers) {
+            testAvailable -= provider.getSource().getSource();
+            if (testAvailable <= 0) break;
+        }
+        if (testAvailable <= 0) {
+            ArrayList<ISpecialSourceProvider> used = new ArrayList<>();
+            for(ISpecialSourceProvider provider : providers){
+                if (source <= 0) break;
+                if(provider.getSource().getSource() > 0) {
+                    int removed = Math.min(provider.getSource().getSource(), source);
+                    source -= removed;
+                    provider.getSource().removeSource(removed);
+                    used.add(provider);
+                }
+            }
+            return used;
+        }
+        return null;
+    }
+
+    /**
+     * Ditto, support spells with extremly large costs
+     */
+    public static @Nullable List<ISpecialSourceProvider> takeMultiSourceWithParticles(BlockPos pos, Level level, int range, int source){
+        List<ISpecialSourceProvider> results = takeMultiSource(pos, level, range, source);
+        if(results != null){
+            for (ISpecialSourceProvider result : results) {
+                EntityFollowProjectile aoeProjectile = new EntityFollowProjectile(level, result.getCurrentPos(), pos);
+                level.addFreshEntity(aoeProjectile);
+            }
+        }
+        return results;
+    }
+
+    /**
      * Searches for nearby mana jars that have enough mana.
      * Returns the position where the source was taken, or null if none were found.
      */

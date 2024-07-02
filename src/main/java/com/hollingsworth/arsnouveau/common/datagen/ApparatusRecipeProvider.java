@@ -462,6 +462,14 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .buildEnchantmentRecipe(Enchantments.MOB_LOOTING, 3, 9000));
 
         addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Tags.Items.STORAGE_BLOCKS_EMERALD))
+                .withPedestalItem(1, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
+                .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.MENDING, 3, 20000));
+
+
+        addRecipe(builder()
                 .withPedestalItem(3, ItemsRegistry.MANIPULATION_ESSENCE)
                 .withPedestalItem(5, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.MULTISHOT, 1, 9000));

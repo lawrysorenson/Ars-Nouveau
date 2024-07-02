@@ -68,26 +68,19 @@ public class SourceUtil {
      * Support spells with extremly large costs by allowing it to take from more than one provider at once
      */
     public static @Nullable List<ISpecialSourceProvider> takeMultiSource(BlockPos pos, Level level, int range, int source){
+        if (!hasSourceNearby(pos, level, range, source)) return null;
         List<ISpecialSourceProvider> providers = canTakeSource(pos, level, range);
-        int testAvailable = source;
-        for(ISpecialSourceProvider provider : providers) {
-            testAvailable -= provider.getSource().getSource();
-            if (testAvailable <= 0) break;
-        }
-        if (testAvailable <= 0) {
-            ArrayList<ISpecialSourceProvider> used = new ArrayList<>();
-            for(ISpecialSourceProvider provider : providers){
-                if (source <= 0) break;
-                if(provider.getSource().getSource() > 0) {
-                    int removed = Math.min(provider.getSource().getSource(), source);
-                    source -= removed;
-                    provider.getSource().removeSource(removed);
-                    used.add(provider);
-                }
+        ArrayList<ISpecialSourceProvider> used = new ArrayList<>();
+        for(ISpecialSourceProvider provider : providers){
+            if (source <= 0) break;
+            if(provider.getSource().getSource() > 0) {
+                int removed = Math.min(provider.getSource().getSource(), source);
+                source -= removed;
+                provider.getSource().removeSource(removed);
+                used.add(provider);
             }
-            return used;
         }
-        return null;
+        return used;
     }
 
     /**
@@ -109,11 +102,13 @@ public class SourceUtil {
      * Returns the position where the source was taken, or null if none were found.
      */
     public static boolean hasSourceNearby(BlockPos pos, Level world, int range, int source) {
-        Optional<BlockPos> loc = BlockPos.findClosestMatch(pos, range, range, (b) -> world.getBlockEntity(b) instanceof SourceJarTile jar && jar.getSource() >= source);
-        if(loc.isPresent()){
-            return true;
+        List<ISpecialSourceProvider> providers = canTakeSource(pos, world, range);
+        int testAvailable = source;
+        for(ISpecialSourceProvider provider : providers) {
+            testAvailable -= provider.getSource().getSource();
+            if (testAvailable <= 0) break;
         }
-        return SourceManager.INSTANCE.hasSourceNearby(pos, world, range, source) != null;
+        return testAvailable <= 0;
     }
 
     /**

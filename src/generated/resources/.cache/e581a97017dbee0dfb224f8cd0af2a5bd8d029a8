@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-02T20:27:05.093890224	Apparatus
+// 1.19.2	2024-07-02T20:58:45.905236011	Apparatus
 47c673376b4ffc5874674165c030f4e7213c87cb data/ars_nouveau/recipes/alchemists_crown.json
 9de96693a6f1f8acf98ddedc408117537e390b95 data/ars_nouveau/recipes/amulet_of_mana_boost.json
 9336968ca3afbcbcdcb1dfd5c8bbe859975835a0 data/ars_nouveau/recipes/amulet_of_mana_regen.json
@@ -117,11 +117,14 @@ ae25f33ff1537ee7d2380c5c4393ba5b55f4db37 data/ars_nouveau/recipes/relay_collecto
 428ea5e2eada275482cd77adf036725bd3398acb data/ars_nouveau/recipes/relay_deposit.json
 8b22ea0454ea9e1475765cb57c37ae18ba4a34ba data/ars_nouveau/recipes/relay_splitter.json
 c0072de8f7c670f835a3a3bbbe48f076282f6148 data/ars_nouveau/recipes/relay_warp.json
-b7050b76b2e84de738ae3476b6726b6512ef758f data/ars_nouveau/recipes/respiration_1.json
-c49d73188435f41dc62a7a648fdbb71ea8f88d02 data/ars_nouveau/recipes/respiration_2.json
-aec234ebc8182859a3628e442092234f40d65b0c data/ars_nouveau/recipes/respiration_3.json
+1be2c37b40112237e41442ba42f1083bed13a067 data/ars_nouveau/recipes/respiration_1.json
+43a700a284fba34b8a4540cc299624a8fbeb08b0 data/ars_nouveau/recipes/respiration_2.json
+c1eb7f623b96d8285b227f01be57b72709c63481 data/ars_nouveau/recipes/respiration_3.json
 543e4f7b6546354430ce6387f5e8458e15bd21a2 data/ars_nouveau/recipes/ring_of_greater_discount.json
 e66b1a9f97074c98ea13feac282d18b3fcd15d43 data/ars_nouveau/recipes/ring_of_lesser_discount.json
+3a1c9469e99059f0b6e1eefefa8bfe6319596f36 data/ars_nouveau/recipes/riptide_1.json
+fd20f3edc37c5fa9b3f9120a7cd64bdc16bce71e data/ars_nouveau/recipes/riptide_2.json
+ab2a4104ab6423f91528b4efe9e957e7b75d933d data/ars_nouveau/recipes/riptide_3.json
 039735743258296bf7ff8231cab69389281b9f16 data/ars_nouveau/recipes/scryers_oculus.json
 a20305ffa6818478d3661898be93969aaac1d478 data/ars_nouveau/recipes/shapers_focus.json
 617c0867525709df35dfb94f50f85f10607e799a data/ars_nouveau/recipes/sharpness_1.json

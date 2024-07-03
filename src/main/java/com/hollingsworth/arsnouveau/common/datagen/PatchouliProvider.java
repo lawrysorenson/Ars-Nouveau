@@ -789,6 +789,7 @@ public class PatchouliProvider implements DataProvider {
             Enchantments.PUNCH_ARROWS,
             Enchantments.QUICK_CHARGE,
             Enchantments.RESPIRATION,
+            Enchantments.RIPTIDE,
             Enchantments.SHARPNESS,
             Enchantments.SILK_TOUCH,
             Enchantments.SMITE,

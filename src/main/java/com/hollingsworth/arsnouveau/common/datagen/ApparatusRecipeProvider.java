@@ -646,16 +646,35 @@ public class ApparatusRecipeProvider implements DataProvider {
 
         addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.RESPIRATION, 1, 3000));
         addRecipe(builder()
-                .withPedestalItem(4, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.AIR_ESSENCE)
                 .withPedestalItem(4, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.RESPIRATION, 2, 6000));
         addRecipe(builder()
-                .withPedestalItem(6, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(3, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(3, ItemsRegistry.AIR_ESSENCE)
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.RESPIRATION, 3, 9000));
+
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Items.PRISMARINE_SHARD))
+                .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.RIPTIDE, 1, 5000));
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, Ingredient.of(Items.PRISMARINE_SHARD))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.RIPTIDE, 2, 10000));
+        addRecipe(builder()
+                .withPedestalItem(3, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(3, Ingredient.of(Items.PRISMARINE_SHARD))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.RIPTIDE, 3, 20000));
 
         addRecipe(builder()
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_QUARTZ))

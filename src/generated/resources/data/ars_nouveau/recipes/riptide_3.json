@@ -1,7 +1,7 @@
 {
   "type": "ars_nouveau:enchantment",
-  "enchantment": "minecraft:respiration",
-  "level": 2,
+  "enchantment": "minecraft:riptide",
+  "level": 3,
   "pedestalItems": [
     {
       "item": {
@@ -15,22 +15,22 @@
     },
     {
       "item": {
-        "item": "ars_nouveau:air_essence"
+        "item": "ars_nouveau:water_essence"
       }
     },
     {
       "item": {
-        "item": "ars_nouveau:air_essence"
+        "item": "minecraft:prismarine_shard"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/source"
+        "item": "minecraft:prismarine_shard"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/source"
+        "item": "minecraft:prismarine_shard"
       }
     },
     {
@@ -44,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 6000
+  "sourceCost": 20000
 }

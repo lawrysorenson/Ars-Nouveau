@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:swift_sneak",
+  "level": 1,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:storage_blocks/source"
+      }
+    },
+    {
+      "item": {
+        "tag": "minecraft:wool"
+      }
+    }
+  ],
+  "sourceCost": 5000
+}

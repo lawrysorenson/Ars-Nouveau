@@ -466,7 +466,7 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(1, Ingredient.of(Tags.Items.STORAGE_BLOCKS_EMERALD))
                 .withPedestalItem(1, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
-                .buildEnchantmentRecipe(Enchantments.MENDING, 3, 20000));
+                .buildEnchantmentRecipe(Enchantments.MENDING, 1, 20000));
 
         addRecipe(builder()
                 .withPedestalItem(3, ItemsRegistry.MANIPULATION_ESSENCE)
@@ -689,7 +689,6 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .buildEnchantmentRecipe(Enchantments.SMITE, 5, 8000));
 
-        // TODO: SOUL SPEED
         addRecipe(builder()
                 .withPedestalItem(1, Ingredient.of(Items.SOUL_SAND))
                 .withPedestalItem(1, Ingredient.of(Items.QUARTZ_BLOCK))
@@ -727,7 +726,21 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(3, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .buildEnchantmentRecipe(Enchantments.SWEEPING_EDGE, 3, 5000));
 
-        // TODO: SWIFT SNEAK
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.ABJURATION_ESSENCE)
+                .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(1, Ingredient.of(ItemTags.WOOL))
+                .buildEnchantmentRecipe(Enchantments.SWIFT_SNEAK, 1, 5000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.ABJURATION_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(1, Ingredient.of(Items.RABBIT_FOOT))
+                .buildEnchantmentRecipe(Enchantments.SWIFT_SNEAK, 2, 10000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.ABJURATION_ESSENCE)
+                .withPedestalItem(3, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(1, Ingredient.of(Blocks.SCULK))
+                .buildEnchantmentRecipe(Enchantments.SWIFT_SNEAK, 3, 20000));
 
 
         addRecipe(builder()

@@ -20,12 +20,12 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/quartz"
+        "item": "minecraft:quartz_block"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/gold"
+        "item": "minecraft:gold_block"
       }
     },
     {

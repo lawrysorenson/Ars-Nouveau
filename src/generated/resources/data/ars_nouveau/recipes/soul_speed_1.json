@@ -10,7 +10,7 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/quartz"
+        "item": "minecraft:quartz_block"
       }
     },
     {

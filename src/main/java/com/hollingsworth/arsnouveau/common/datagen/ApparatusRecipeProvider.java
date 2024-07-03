@@ -511,6 +511,41 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .buildEnchantmentRecipe(Enchantments.LOYALTY, 3, 20000));
 
         addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Items.RABBIT_FOOT))
+                .withPedestalItem(1, Ingredient.of(ItemTags.FISHES))
+                .buildEnchantmentRecipe(Enchantments.FISHING_LUCK, 1, 5000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(2, Ingredient.of(Items.RABBIT_FOOT))
+                .withPedestalItem(2, Ingredient.of(ItemTags.FISHES))
+                .buildEnchantmentRecipe(Enchantments.FISHING_LUCK, 2, 10000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(3, Ingredient.of(Items.RABBIT_FOOT))
+                .withPedestalItem(3, Ingredient.of(ItemTags.FISHES))
+                .buildEnchantmentRecipe(Enchantments.FISHING_LUCK, 3, 20000));
+
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(2, Ingredient.of(ItemTags.FISHES))
+                .buildEnchantmentRecipe(Enchantments.FISHING_SPEED, 1, 5000));
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(3, Ingredient.of(ItemTags.FISHES))
+                .buildEnchantmentRecipe(Enchantments.FISHING_SPEED, 2, 10000));
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(4, Ingredient.of(ItemTags.FISHES))
+                .buildEnchantmentRecipe(Enchantments.FISHING_SPEED, 3, 20000));
+
+        addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.EARTH_ESSENCE)
                 .withPedestalItem(1, Ingredient.of(Tags.Items.GEMS_EMERALD))
                 .withPedestalItem(6, RecipeDatagen.SOURCE_GEM_BLOCK)
@@ -722,7 +757,7 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_QUARTZ))
                 .withPedestalItem(1, Ingredient.of(Tags.Items.INGOTS_IRON))
                 .withPedestalItem(1, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
-                .buildEnchantmentRecipe(Enchantments.SHARPNESS, 3, 500));
+                .buildEnchantmentRecipe(Enchantments.SHARPNESS, 3, 5000));
 
         addRecipe(builder()
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_QUARTZ))

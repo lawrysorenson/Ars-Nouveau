@@ -1,26 +1,26 @@
 {
   "type": "ars_nouveau:enchantment",
-  "enchantment": "minecraft:sharpness",
-  "level": 3,
+  "enchantment": "minecraft:luck_of_the_sea",
+  "level": 1,
   "pedestalItems": [
     {
       "item": {
-        "tag": "forge:storage_blocks/quartz"
+        "item": "ars_nouveau:water_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/quartz"
+        "item": "ars_nouveau:conjuration_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "minecraft:rabbit_foot"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "tag": "minecraft:fishes"
       }
     }
   ],

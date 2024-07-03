@@ -780,6 +780,8 @@ public class PatchouliProvider implements DataProvider {
             Enchantments.INFINITY_ARROWS,
             Enchantments.KNOCKBACK,
             Enchantments.LOYALTY,
+            Enchantments.FISHING_LUCK,
+            Enchantments.FISHING_SPEED,
             Enchantments.MOB_LOOTING,
             Enchantments.MENDING,
             Enchantments.MULTISHOT,

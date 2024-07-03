@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-02T21:16:44.416015404	Apparatus
+// 1.19.2	2024-07-02T21:46:58.596275792	Apparatus
 47c673376b4ffc5874674165c030f4e7213c87cb data/ars_nouveau/recipes/alchemists_crown.json
 9de96693a6f1f8acf98ddedc408117537e390b95 data/ars_nouveau/recipes/amulet_of_mana_boost.json
 9336968ca3afbcbcdcb1dfd5c8bbe859975835a0 data/ars_nouveau/recipes/amulet_of_mana_regen.json
@@ -72,6 +72,12 @@ d3de096e31d57f64a484673ea36a3b0c02c30981 data/ars_nouveau/recipes/looting_2.json
 bb15a93724203823d1a8a73005f2679eacafb9f8 data/ars_nouveau/recipes/loyalty_1.json
 44d034ae83ee08da7e4ac620617d7862b89b03aa data/ars_nouveau/recipes/loyalty_2.json
 bc49b833ecc2d7dd8c358b9f81e1d3ce5b5b07cd data/ars_nouveau/recipes/loyalty_3.json
+6f470cf5a4f55b394ec16f23e84a18a346ffa4e8 data/ars_nouveau/recipes/luck_of_the_sea_1.json
+3c52948f0552c74c3c4e5480a05d883eed2bcfe6 data/ars_nouveau/recipes/luck_of_the_sea_2.json
+fdb61d6f5f3e3816303f3b834518060dd64c73fb data/ars_nouveau/recipes/luck_of_the_sea_3.json
+25dd8dd0805003ebe9c4d769f4d40af6781be04e data/ars_nouveau/recipes/lure_1.json
+b3cae39cd0887136d5108086ba8827a52f995029 data/ars_nouveau/recipes/lure_2.json
+51299917a43d294ed531f6a87b4278d7f6604854 data/ars_nouveau/recipes/lure_3.json
 fbad503628d71338f5cb2b196d17f66eec341e55 data/ars_nouveau/recipes/magebloom_crop.json
 c184dfd7ebcce701fda6df24c698e79629f392e9 data/ars_nouveau/recipes/mana_boost_1.json
 dafe9654660f092fe09af7fc94d376acfc5bc5a7 data/ars_nouveau/recipes/mana_boost_2.json
@@ -134,7 +140,7 @@ ab2a4104ab6423f91528b4efe9e957e7b75d933d data/ars_nouveau/recipes/riptide_3.json
 9410f8b35e43b34e9c8b0bd1cf4d8795c1d4dfe4 data/ars_nouveau/recipes/shapers_focus.json
 617c0867525709df35dfb94f50f85f10607e799a data/ars_nouveau/recipes/sharpness_1.json
 20963f51d0b5f37d26bc2347eda0e823a29409b3 data/ars_nouveau/recipes/sharpness_2.json
-1fa28d63df5e27aa12ad2a310dcebd74009e6a83 data/ars_nouveau/recipes/sharpness_3.json
+5e3d4740861bd41297a18af2a9d602a2598020b9 data/ars_nouveau/recipes/sharpness_3.json
 396292f3c64426a726c95ebc222b505a945405c0 data/ars_nouveau/recipes/sharpness_4.json
 7a5d6fe871f5a098159f6ee0f56d708792005446 data/ars_nouveau/recipes/sharpness_5.json
 d61c4947582335a5b71ff1f0403f283a26cc2bf9 data/ars_nouveau/recipes/silk_touch_1.json

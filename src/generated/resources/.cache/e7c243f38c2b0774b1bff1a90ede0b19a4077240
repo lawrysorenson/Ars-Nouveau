@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-02T21:16:44.413116891	Patchouli
+// 1.19.2	2024-07-02T21:46:58.599273281	Patchouli
 d5f03c259d2af4f5e8e286639783f4fc833b1076 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/aqua_affinity.json
 2ec536fea831588201432d61d70af61385882054 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/armor/alteration_table.json
 a82f4fc73946d228b1e3f5e03d0ecef46f33cdfb data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/armor/applying_perks.json
@@ -178,6 +178,8 @@ b4fa0ba50c09a58436480ef00c0885402acaf50f data/ars_nouveau/patchouli_books/worn_n
 30e7760ae54a753465d48d6609dd0edc7c480e44 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/knockback.json
 b6ce8c4962d9de6fc0a3194007ea8516046d5a6c data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/looting.json
 caf4d064bc0b933f5e8939575901a1999d969c02 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/loyalty.json
+30f35e0ac3445d1e47200960dfc1c263497f2ea6 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/luck_of_the_sea.json
+3b72b6dd6769d00a1ae12dc73d7a3d69171c940a data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/lure.json
 50235d1b87546d57973ce69945517a432f22ed3e data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/machines/bookwyrm_charm.json
 1a25ac02c68a2ba58342ed551f59c60f5f8832d8 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/machines/brazier_relay.json
 730a6bdae91b4a8239778753105a2b36e23e06b4 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/machines/enchanting_apparatus.json

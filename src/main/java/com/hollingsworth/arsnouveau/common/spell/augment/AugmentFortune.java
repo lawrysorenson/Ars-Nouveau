@@ -13,7 +13,7 @@ public class AugmentFortune extends AbstractAugment {
 
     @Override
     public int getDefaultManaCost() {
-        return 10000;
+        return 20000;
     }
 
     @Override

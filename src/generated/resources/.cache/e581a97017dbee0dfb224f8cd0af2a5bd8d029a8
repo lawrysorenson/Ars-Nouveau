@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-02T20:09:17.88008763	Apparatus
+// 1.19.2	2024-07-02T20:27:05.093890224	Apparatus
 47c673376b4ffc5874674165c030f4e7213c87cb data/ars_nouveau/recipes/alchemists_crown.json
 9de96693a6f1f8acf98ddedc408117537e390b95 data/ars_nouveau/recipes/amulet_of_mana_boost.json
 9336968ca3afbcbcdcb1dfd5c8bbe859975835a0 data/ars_nouveau/recipes/amulet_of_mana_regen.json
@@ -23,6 +23,7 @@ a4ab4f73c2d183ccff73d679f9c1e30f938a2f8d data/ars_nouveau/recipes/belt_of_unstab
 a728ac5f321cf2f3315a4b86bbce1a3a2eb4b03f data/ars_nouveau/recipes/blast_protection_3.json
 bf63106198fbaec7a639c3660a59c8daaac522f5 data/ars_nouveau/recipes/blast_protection_4.json
 4e5dd650fe3f1d69c42144bcc7261a8d09a4408a data/ars_nouveau/recipes/brazier_relay.json
+ae48f7ed6a43b06af73c07168d94e9fee6eb621c data/ars_nouveau/recipes/channeling_1.json
 8b81707d8d77e584ba8f65e61b27ef36a0b34e82 data/ars_nouveau/recipes/depth_strider_1.json
 8a416b13c837cbef25070034210a741daa9b5deb data/ars_nouveau/recipes/depth_strider_2.json
 2c73d29201b7b8e5b952d0e2c46a352b5dafd01e data/ars_nouveau/recipes/depth_strider_3.json
@@ -63,6 +64,9 @@ ec952c57d59d54a02da3301d4502ec926800438c data/ars_nouveau/recipes/infinity_1.jso
 b9c72388d5c9c24dcd833009e09e19b0a0e07fa0 data/ars_nouveau/recipes/looting_1.json
 d3de096e31d57f64a484673ea36a3b0c02c30981 data/ars_nouveau/recipes/looting_2.json
 1e356262c0cfe380087445772e22789561232913 data/ars_nouveau/recipes/looting_3.json
+bb15a93724203823d1a8a73005f2679eacafb9f8 data/ars_nouveau/recipes/loyalty_1.json
+44d034ae83ee08da7e4ac620617d7862b89b03aa data/ars_nouveau/recipes/loyalty_2.json
+bc49b833ecc2d7dd8c358b9f81e1d3ce5b5b07cd data/ars_nouveau/recipes/loyalty_3.json
 fbad503628d71338f5cb2b196d17f66eec341e55 data/ars_nouveau/recipes/magebloom_crop.json
 c184dfd7ebcce701fda6df24c698e79629f392e9 data/ars_nouveau/recipes/mana_boost_1.json
 876d232c14e09a7147d306dc7304632a9b14757e data/ars_nouveau/recipes/mana_boost_2.json

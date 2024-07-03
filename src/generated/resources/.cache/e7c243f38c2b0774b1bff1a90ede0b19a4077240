@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-02T20:07:59.734074459	Patchouli
+// 1.19.2	2024-07-02T20:27:05.091532703	Patchouli
 d5f03c259d2af4f5e8e286639783f4fc833b1076 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/aqua_affinity.json
 2ec536fea831588201432d61d70af61385882054 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/armor/alteration_table.json
 a82f4fc73946d228b1e3f5e03d0ecef46f33cdfb data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/armor/applying_perks.json
@@ -38,6 +38,7 @@ f6550bcc2b3942c8c56bcee77a7eb1b665f94dce data/ars_nouveau/patchouli_books/worn_n
 3ac1fbba7133877181a6dfb45a3912643d84c057 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/automation/wixie_hat.json
 1611ad9925068a078a2c38232eb4838afe522831 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/bane_of_arthropods.json
 4410ed3db44cc2768b3e7112c540aa2f85542302 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/blast_protection.json
+3a9e68fd6a8da73e93f501db20f39d2afbc929f9 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/channeling.json
 50ab5ad4ee56ed51741919095bf1a1d42c68f5c5 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/depth_strider.json
 df71d7770db5331a593675a532d6ef185673afde data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/efficiency.json
 d50e699fd8864679faf31cce12f56187089c702e data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/enchantments/how_to_enchant.json
@@ -175,6 +176,7 @@ b4fa0ba50c09a58436480ef00c0885402acaf50f data/ars_nouveau/patchouli_books/worn_n
 372bd6add262cac20658b0ab6181fc74908fd8ff data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/infinity.json
 30e7760ae54a753465d48d6609dd0edc7c480e44 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/knockback.json
 b6ce8c4962d9de6fc0a3194007ea8516046d5a6c data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/looting.json
+caf4d064bc0b933f5e8939575901a1999d969c02 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/loyalty.json
 50235d1b87546d57973ce69945517a432f22ed3e data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/machines/bookwyrm_charm.json
 1a25ac02c68a2ba58342ed551f59c60f5f8832d8 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/machines/brazier_relay.json
 730a6bdae91b4a8239778753105a2b36e23e06b4 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/machines/enchanting_apparatus.json

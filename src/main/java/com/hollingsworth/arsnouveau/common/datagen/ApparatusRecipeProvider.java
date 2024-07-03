@@ -296,6 +296,13 @@ public class ApparatusRecipeProvider implements DataProvider {
 
         addRecipe(builder()
                 .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.AIR_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(2, Ingredient.of(Items.LIGHTNING_ROD))
+                .buildEnchantmentRecipe(Enchantments.CHANNELING, 1, 5000));
+
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.DEPTH_STRIDER, 1, 3000));
         addRecipe(builder()
@@ -453,6 +460,22 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, ItemsRegistry.AIR_ESSENCE)
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.KNOCKBACK, 2, 4000));
+
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.LOYALTY, 1, 5000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.LOYALTY, 2, 10000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(3, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.LOYALTY, 3, 20000));
 
         addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.EARTH_ESSENCE)
@@ -718,7 +741,6 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.SOUL_SPEED, 3, 20000));
 
-
         addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
                 .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
@@ -752,7 +774,6 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(1, Ingredient.of(Blocks.SCULK))
                 .buildEnchantmentRecipe(Enchantments.SWIFT_SNEAK, 3, 20000));
 
-
         addRecipe(builder()
                 .withPedestalItem(1, Ingredient.of(ItemsRegistry.WILDEN_SPIKE.get()))
                 .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
@@ -782,7 +803,6 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .withPedestalItem(1, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .buildEnchantmentRecipe(Enchantments.UNBREAKING, 2, 3500));
-
         addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.ABJURATION_ESSENCE)
                 .withPedestalItem(3, Ingredient.of(Tags.Items.GEMS_DIAMOND))
@@ -800,7 +820,6 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(4, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .buildEnchantmentRecipe(EnchantmentRegistry.MANA_BOOST_ENCHANTMENT.get(), 2, 3500));
-
         addRecipe(builder()
                 .withPedestalItem(1, BlockRegistry.SOURCEBERRY_BUSH)
                 .withPedestalItem(2, Ingredient.of(Tags.Items.GEMS_DIAMOND))

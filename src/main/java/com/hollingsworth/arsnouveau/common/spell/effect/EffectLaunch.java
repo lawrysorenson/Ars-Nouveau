@@ -51,8 +51,8 @@ public class EffectLaunch extends AbstractEffect {
     @Override
     public void buildConfig(ForgeConfigSpec.Builder builder) {
         super.buildConfig(builder);
-        addGenericDouble(builder, 0.8, "Base knockup amount", "knockup");
-        addAmpConfig(builder, 0.25);
+        addGenericDouble(builder, 10, "Base knockup amount", "knockup");
+        addAmpConfig(builder, 10);
     }
 
     @Override

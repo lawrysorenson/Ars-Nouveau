@@ -61,7 +61,7 @@ public class EffectBreak extends AbstractEffect {
         List<BlockPos> posList = SpellUtil.calcAOEBlocks(shooter, pos, rayTraceResult, aoeBuff, pierceBuff);
         ItemStack stack = spellStats.isSensitive() ? new ItemStack(Items.SHEARS) : getStack(shooter, rayTraceResult);
 
-        int numFortune = spellStats.getBuffCount(AugmentFortune.INSTANCE);
+        int numFortune = spellStats.getBuffCount(AugmentFortune.INSTANCE);  
         int numSilkTouch = spellStats.getBuffCount(AugmentExtract.INSTANCE);
         if (numFortune > 0 && stack.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE) < numFortune) {
             stack.enchant(Enchantments.BLOCK_FORTUNE, numFortune);
@@ -113,7 +113,6 @@ public class EffectBreak extends AbstractEffect {
     @Override
     protected Map<ResourceLocation, Integer> getDefaultAugmentLimits(Map<ResourceLocation, Integer> defaults) {
         super.getDefaultAugmentLimits(defaults);
-        defaults.put(AugmentFortune.INSTANCE.getRegistryName(), 4);
         return defaults;
     }
 

@@ -5,12 +5,12 @@
   "pedestalItems": [
     {
       "item": {
-        "tag": "forge:gems/diamond"
+        "tag": "forge:storage_blocks/iron"
       }
     },
     {
       "item": {
-        "tag": "forge:gems/diamond"
+        "tag": "forge:storage_blocks/iron"
       }
     },
     {

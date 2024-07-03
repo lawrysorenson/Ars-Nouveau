@@ -446,6 +446,39 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .buildEnchantmentRecipe(Enchantments.FROST_WALKER, 2, 16000));
 
         addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
+                .withPedestalItem(2, Ingredient.of(Items.PRISMARINE_SHARD))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.IMPALING, 1, 5000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Items.PRISMARINE))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.IMPALING, 2, 10000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
+                .withPedestalItem(2, Ingredient.of(Items.PRISMARINE))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.IMPALING, 3, 20000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Items.PRISMARINE))
+                .withPedestalItem(1, Ingredient.of(Items.DARK_PRISMARINE))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.IMPALING, 4, 40000));
+        addRecipe(builder()
+                .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
+                .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
+                .withPedestalItem(2, Ingredient.of(Items.PRISMARINE))
+                .withPedestalItem(2, Ingredient.of(Items.DARK_PRISMARINE))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.IMPALING, 5, 80000));
+
+        addRecipe(builder()
                 .withPedestalItem(4, ItemsRegistry.AIR_ESSENCE)
                 .withPedestalItem(4, ItemsRegistry.CONJURATION_ESSENCE)
                 .buildEnchantmentRecipe(Enchantments.INFINITY_ARROWS, 1, 9000));

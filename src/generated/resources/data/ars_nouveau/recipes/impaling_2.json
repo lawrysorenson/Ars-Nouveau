@@ -1,26 +1,21 @@
 {
   "type": "ars_nouveau:enchantment",
-  "enchantment": "minecraft:unbreaking",
+  "enchantment": "minecraft:impaling",
   "level": 2,
   "pedestalItems": [
     {
       "item": {
-        "item": "ars_nouveau:abjuration_essence"
+        "item": "ars_nouveau:air_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "ars_nouveau:manipulation_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:ingots/iron"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:storage_blocks/source"
+        "item": "minecraft:prismarine"
       }
     },
     {
@@ -30,9 +25,9 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "tag": "forge:storage_blocks/source"
       }
     }
   ],
-  "sourceCost": 3500
+  "sourceCost": 10000
 }

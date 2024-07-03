@@ -25,22 +25,22 @@
     },
     {
       "item": {
-        "item": "ars_nouveau:air_essence"
+        "item": "ars_nouveau:conjuration_essence"
       }
     },
     {
       "item": {
-        "item": "ars_nouveau:air_essence"
+        "item": "ars_nouveau:conjuration_essence"
       }
     },
     {
       "item": {
-        "item": "ars_nouveau:air_essence"
+        "item": "ars_nouveau:conjuration_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/diamond"
+        "item": "ars_nouveau:conjuration_essence"
       }
     }
   ],

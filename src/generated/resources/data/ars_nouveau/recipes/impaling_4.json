@@ -1,36 +1,26 @@
 {
   "type": "ars_nouveau:enchantment",
-  "enchantment": "minecraft:fortune",
-  "level": 2,
+  "enchantment": "minecraft:impaling",
+  "level": 4,
   "pedestalItems": [
     {
       "item": {
-        "item": "ars_nouveau:earth_essence"
+        "item": "ars_nouveau:air_essence"
       }
     },
     {
       "item": {
-        "item": "ars_nouveau:earth_essence"
+        "item": "ars_nouveau:manipulation_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "minecraft:prismarine"
       }
     },
     {
       "item": {
-        "tag": "forge:ingots/iron"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:ingots/iron"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:ingots/iron"
+        "item": "minecraft:dark_prismarine"
       }
     },
     {
@@ -44,5 +34,5 @@
       }
     }
   ],
-  "sourceCost": 8000
+  "sourceCost": 40000
 }

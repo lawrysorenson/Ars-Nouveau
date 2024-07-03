@@ -774,6 +774,7 @@ public class PatchouliProvider implements DataProvider {
             Enchantments.FIRE_PROTECTION,
             Enchantments.FLAMING_ARROWS,
             Enchantments.BLOCK_FORTUNE,
+            Enchantments.FROST_WALKER,
             Enchantments.INFINITY_ARROWS,
             Enchantments.KNOCKBACK,
             Enchantments.MOB_LOOTING,

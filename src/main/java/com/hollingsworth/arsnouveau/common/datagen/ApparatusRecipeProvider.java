@@ -340,7 +340,6 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .buildEnchantmentRecipe(Enchantments.BLOCK_EFFICIENCY, 5, 8000));
 
-
         addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.AIR_ESSENCE)
                 .withPedestalItem(1, Ingredient.of(Tags.Items.SLIMEBALLS))
@@ -427,6 +426,17 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, Ingredient.of(Tags.Items.STORAGE_BLOCKS_LAPIS))
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.BLOCK_FORTUNE, 3, 9000));
+
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(2, Ingredient.of(Items.PACKED_ICE))
+                .buildEnchantmentRecipe(Enchantments.FROST_WALKER, 1, 8000));
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(2, Ingredient.of(Items.BLUE_ICE))
+                .buildEnchantmentRecipe(Enchantments.FROST_WALKER, 2, 16000));
 
         addRecipe(builder()
                 .withPedestalItem(7, ItemsRegistry.AIR_ESSENCE)

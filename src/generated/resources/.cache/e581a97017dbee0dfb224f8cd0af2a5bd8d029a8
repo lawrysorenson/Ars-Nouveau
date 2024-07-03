@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-02T20:00:15.638611987	Apparatus
+// 1.19.2	2024-07-02T20:09:17.88008763	Apparatus
 47c673376b4ffc5874674165c030f4e7213c87cb data/ars_nouveau/recipes/alchemists_crown.json
 9de96693a6f1f8acf98ddedc408117537e390b95 data/ars_nouveau/recipes/amulet_of_mana_boost.json
 9336968ca3afbcbcdcb1dfd5c8bbe859975835a0 data/ars_nouveau/recipes/amulet_of_mana_regen.json
@@ -52,6 +52,8 @@ f98d1ab720db3a84742055c5995f8ea5060cba31 data/ars_nouveau/recipes/fire_protectio
 8a1dc7457089128edcfe3ec23f3433ea7deede75 data/ars_nouveau/recipes/fortune_1.json
 c96faa00a6648573eddb08e6bb9d2b82020aab2f data/ars_nouveau/recipes/fortune_2.json
 21969be82dfc26b0e48911f4f21d38d24142e619 data/ars_nouveau/recipes/fortune_3.json
+fe4added1632552ae54d2bc22507716f29c90efb data/ars_nouveau/recipes/frost_walker_1.json
+fb596a502a46258d52e1ab32271f0993c27a24c7 data/ars_nouveau/recipes/frost_walker_2.json
 ec952c57d59d54a02da3301d4502ec926800438c data/ars_nouveau/recipes/infinity_1.json
 388cc834eac87f5774b99899c5df9290cc50f65f data/ars_nouveau/recipes/jar_of_light.json
 9dd267bdd8265184cec4ee610139318921c19651 data/ars_nouveau/recipes/jump_ring.json

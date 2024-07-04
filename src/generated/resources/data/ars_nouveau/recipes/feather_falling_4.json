@@ -25,7 +25,7 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/source"
+        "item": "minecraft:slime_block"
       }
     },
     {
@@ -35,14 +35,9 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "tag": "forge:storage_blocks/source"
       }
     }
   ],
-  "sourceCost": 6500
+  "sourceCost": 40000
 }

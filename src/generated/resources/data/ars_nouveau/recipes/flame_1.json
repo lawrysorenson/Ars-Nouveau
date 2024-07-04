@@ -10,14 +10,24 @@
     },
     {
       "item": {
+        "item": "ars_nouveau:fire_essence"
+      }
+    },
+    {
+      "item": {
         "item": "ars_nouveau:air_essence"
       }
     },
     {
       "item": {
-        "tag": "forge:rods/blaze"
+        "item": "ars_nouveau:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:flint_and_steel"
       }
     }
   ],
-  "sourceCost": 5000
+  "sourceCost": 10000
 }

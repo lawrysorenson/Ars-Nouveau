@@ -35,7 +35,7 @@
     },
     {
       "item": {
-        "tag": "forge:rods/blaze"
+        "item": "minecraft:magma_cream"
       }
     },
     {
@@ -44,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 6500
+  "sourceCost": 40000
 }

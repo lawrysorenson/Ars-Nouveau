@@ -30,7 +30,7 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "item": "ars_nouveau:conjuration_essence"
       }
     },
     {
@@ -39,5 +39,5 @@
       }
     }
   ],
-  "sourceCost": 7500
+  "sourceCost": 20000
 }

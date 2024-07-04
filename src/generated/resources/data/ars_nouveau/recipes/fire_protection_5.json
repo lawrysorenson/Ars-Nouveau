@@ -35,7 +35,7 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/source"
+        "item": "minecraft:magma_cream"
       }
     },
     {
@@ -44,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 8000
+  "sourceCost": 80000
 }

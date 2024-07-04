@@ -15,6 +15,16 @@
     },
     {
       "item": {
+        "item": "ars_nouveau:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
         "item": "ars_nouveau:abjuration_essence"
       }
     },
@@ -34,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 6500
+  "sourceCost": 40000
 }

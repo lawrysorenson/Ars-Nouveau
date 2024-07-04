@@ -22,12 +22,7 @@
       "item": {
         "tag": "forge:storage_blocks/lapis"
       }
-    },
-    {
-      "item": {
-        "tag": "forge:storage_blocks/lapis"
-      }
     }
   ],
-  "sourceCost": 2000
+  "sourceCost": 5000
 }

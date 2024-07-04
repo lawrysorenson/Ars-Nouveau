@@ -15,12 +15,7 @@
     },
     {
       "item": {
-        "tag": "forge:slimeballs"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:storage_blocks/source"
+        "tag": "minecraft:beds"
       }
     },
     {
@@ -29,5 +24,5 @@
       }
     }
   ],
-  "sourceCost": 3500
+  "sourceCost": 10000
 }

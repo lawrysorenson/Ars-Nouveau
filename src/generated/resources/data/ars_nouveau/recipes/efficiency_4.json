@@ -15,11 +15,6 @@
     },
     {
       "item": {
-        "item": "minecraft:diamond_pickaxe"
-      }
-    },
-    {
-      "item": {
         "item": "minecraft:iron_shovel"
       }
     },
@@ -42,7 +37,12 @@
       "item": {
         "tag": "forge:obsidian"
       }
+    },
+    {
+      "item": {
+        "tag": "forge:obsidian"
+      }
     }
   ],
-  "sourceCost": 6500
+  "sourceCost": 40000
 }

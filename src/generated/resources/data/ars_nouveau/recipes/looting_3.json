@@ -15,17 +15,17 @@
     },
     {
       "item": {
-        "item": "ars_nouveau:earth_essence"
+        "item": "ars_nouveau:conjuration_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:conjuration_essence"
       }
     },
     {
       "item": {
         "tag": "forge:storage_blocks/emerald"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:storage_blocks/lapis"
       }
     },
     {
@@ -44,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 9000
+  "sourceCost": 30000
 }

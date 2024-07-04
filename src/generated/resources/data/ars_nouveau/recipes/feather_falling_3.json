@@ -20,7 +20,7 @@
     },
     {
       "item": {
-        "tag": "forge:slimeballs"
+        "item": "minecraft:water_bucket"
       }
     },
     {
@@ -44,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 5000
+  "sourceCost": 20000
 }

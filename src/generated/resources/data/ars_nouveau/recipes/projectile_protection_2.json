@@ -20,6 +20,11 @@
     },
     {
       "item": {
+        "item": "ars_nouveau:abjuration_essence"
+      }
+    },
+    {
+      "item": {
         "tag": "forge:storage_blocks/source"
       }
     },
@@ -29,5 +34,5 @@
       }
     }
   ],
-  "sourceCost": 3500
+  "sourceCost": 10000
 }

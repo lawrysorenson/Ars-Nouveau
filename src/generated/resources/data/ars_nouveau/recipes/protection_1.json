@@ -15,7 +15,7 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "item": "ars_nouveau:abjuration_essence"
       }
     },
     {
@@ -29,5 +29,5 @@
       }
     }
   ],
-  "sourceCost": 2000
+  "sourceCost": 7000
 }

@@ -34,12 +34,12 @@ public class AlchemicalSourcelinkTile extends SourcelinkTile {
         if (level instanceof ServerLevel && level.getGameTime() % 20 == 0 && this.canAcceptSource()) {
             BlockPos potionPos = findNearbyPotion(level, worldPosition);
             if (potionPos != null && level.getBlockEntity(potionPos) instanceof PotionJarTile tile) {
-                int source = 75;
+                int source = 37;
                 Set<MobEffect> effectTypes = new HashSet<>();
                 for (MobEffectInstance e : tile.getData().fullEffects()) {
-                    source += (e.getDuration() / 50);
-                    source += e.getAmplifier() * 250;
-                    source += 150;
+                    source += (e.getDuration() / 100);
+                    source += e.getAmplifier() * 125;
+                    source += 75;
                     effectTypes.add(e.getEffect());
                 }
                 if (effectTypes.size() > 1) {

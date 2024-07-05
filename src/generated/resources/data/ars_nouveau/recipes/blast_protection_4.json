@@ -5,17 +5,12 @@
   "pedestalItems": [
     {
       "item": {
-        "tag": "forge:storage_blocks/iron"
+        "tag": "forge:ingots/iron"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/iron"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:storage_blocks/source"
+        "tag": "forge:ingots/iron"
       }
     },
     {
@@ -25,7 +20,7 @@
     },
     {
       "item": {
-        "tag": "forge:obsidian"
+        "tag": "forge:storage_blocks/source"
       }
     },
     {
@@ -40,9 +35,14 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/gold"
+        "tag": "forge:obsidian"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:gold_ingot"
       }
     }
   ],
-  "sourceCost": 40000
+  "sourceCost": 120000
 }

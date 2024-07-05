@@ -10,12 +10,32 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/emerald"
+        "item": "minecraft:emerald"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
       }
     },
     {
@@ -24,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 20000
+  "sourceCost": 100000
 }

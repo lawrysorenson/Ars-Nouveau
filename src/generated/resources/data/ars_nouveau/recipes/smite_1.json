@@ -20,9 +20,14 @@
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/lapis"
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
       }
     }
   ],
-  "sourceCost": 5000
+  "sourceCost": 15000
 }

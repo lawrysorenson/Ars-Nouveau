@@ -5,12 +5,12 @@
   "pedestalItems": [
     {
       "item": {
-        "tag": "forge:storage_blocks/redstone"
+        "item": "minecraft:redstone"
       }
     },
     {
       "item": {
-        "tag": "forge:storage_blocks/redstone"
+        "item": "minecraft:redstone"
       }
     },
     {
@@ -44,5 +44,5 @@
       }
     }
   ],
-  "sourceCost": 20000
+  "sourceCost": 60000
 }

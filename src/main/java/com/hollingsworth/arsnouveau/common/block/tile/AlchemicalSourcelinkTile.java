@@ -20,7 +20,7 @@ public class AlchemicalSourcelinkTile extends SourcelinkTile {
 
     @Override
     public int getMaxSource() {
-        return 20000;
+        return 100000;
     }
 
     @Override

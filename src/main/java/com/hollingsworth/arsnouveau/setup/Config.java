@@ -141,7 +141,7 @@ public class Config {
         SERVER_BUILDER.comment("Blocks").push("block");
         MELDER_INPUT_COST = SERVER_BUILDER.comment("How much potion a melder takes from each input jar. 100 = 1 potion").defineInRange("melderInputCost", 200, 100, Integer.MAX_VALUE);
         MELDER_OUTPUT = SERVER_BUILDER.comment("How much potion a melder outputs per cycle. 100 = 1 potion").defineInRange("melderOutput", 100, 100, Integer.MAX_VALUE);
-        MELDER_SOURCE_COST = SERVER_BUILDER.comment("How much source a melder takes per cycle").defineInRange("melderSourceCost", 300, 0, Integer.MAX_VALUE);
+        MELDER_SOURCE_COST = SERVER_BUILDER.comment("How much source a melder takes per cycle").defineInRange("melderSourceCost", 10, 0, Integer.MAX_VALUE);
         SERVER_BUILDER.pop();
 
         SERVER_BUILDER.comment("Debug").push("debug");

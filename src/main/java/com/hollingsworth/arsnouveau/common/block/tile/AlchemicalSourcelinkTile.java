@@ -43,9 +43,8 @@ public class AlchemicalSourcelinkTile extends SourcelinkTile {
                     effectTypes.add(e.getEffect());
                 }
                 if (effectTypes.size() > 1) {
-                    source *= Math.pow(1.2, effectTypes.size());
+                    source *= Math.pow(1.3, effectTypes.size());
                 }
-                source /= 2;
                 if (source > 0 && canAcceptSource(source) || this.getSource() <= 0) {
                     addSource(source);
                     tile.remove(100);

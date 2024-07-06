@@ -14,6 +14,10 @@
     {
       "type": "ars_nouveau:enchanting_recipe",
       "recipe": "ars_nouveau:looting_3"
+    },
+    {
+      "type": "ars_nouveau:enchanting_recipe",
+      "recipe": "ars_nouveau:looting_4"
     }
   ]
 }

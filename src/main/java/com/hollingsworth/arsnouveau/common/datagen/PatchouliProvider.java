@@ -36,6 +36,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 import static com.hollingsworth.arsnouveau.api.RegistryHelper.getRegistryName;
 
@@ -748,7 +749,8 @@ public class PatchouliProvider implements DataProvider {
     public void addEnchantmentPage(Enchantment enchantment) {
         PatchouliBuilder builder = new PatchouliBuilder(ENCHANTMENTS, enchantment.getDescriptionId())
                 .withIcon(getRegistryName(Items.ENCHANTED_BOOK).toString());
-        for (int i = enchantment.getMinLevel(); i <= enchantment.getMaxLevel(); i++) {
+        int cap = raisedCaps.containsKey(enchantment) ? raisedCaps.get(enchantment) : enchantment.getMaxLevel();
+        for (int i = enchantment.getMinLevel(); i <= cap; i++) {
             builder.withPage(new EnchantingPage("ars_nouveau:" + getRegistryName(enchantment).getPath() + "_" + i));
         }
         this.pages.add(new PatchouliPage(builder, this.generator.getOutputFolder().resolve("data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/" + getRegistryName(enchantment).getPath() + ".json")));
@@ -762,6 +764,15 @@ public class PatchouliProvider implements DataProvider {
                 .withPage(new ApparatusPage(perkItem)).withSortNum(99);
         this.pages.add(new PatchouliPage(builder, this.generator.getOutputFolder().resolve("data/" + perk.getRegistryName().getNamespace() + "/patchouli_books/worn_notebook/en_us/entries/armor/" + perk.getRegistryName().getPath() + ".json")));
     }
+
+    Map<Enchantment, Integer> raisedCaps = Map.ofEntries(
+        Map.entry(Enchantments.ALL_DAMAGE_PROTECTION, 5),
+        Map.entry(Enchantments.FIRE_PROTECTION, 5),
+        Map.entry(Enchantments.BLAST_PROTECTION, 5),
+        Map.entry(Enchantments.PROJECTILE_PROTECTION, 5),
+        Map.entry(Enchantments.BLOCK_FORTUNE, 4),
+        Map.entry(Enchantments.MOB_LOOTING, 4)
+    );
 
     List<Enchantment> enchants = Arrays.asList(
             Enchantments.AQUA_AFFINITY,

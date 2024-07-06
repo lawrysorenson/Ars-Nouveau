@@ -18,6 +18,10 @@
     {
       "type": "ars_nouveau:enchanting_recipe",
       "recipe": "ars_nouveau:protection_4"
+    },
+    {
+      "type": "ars_nouveau:enchanting_recipe",
+      "recipe": "ars_nouveau:protection_5"
     }
   ]
 }

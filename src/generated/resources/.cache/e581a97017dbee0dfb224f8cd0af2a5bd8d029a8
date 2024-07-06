@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-04T19:13:16.452060771	Apparatus
+// 1.19.2	2024-07-05T18:14:09.56658262	Apparatus
 47c673376b4ffc5874674165c030f4e7213c87cb data/ars_nouveau/recipes/alchemists_crown.json
 9de96693a6f1f8acf98ddedc408117537e390b95 data/ars_nouveau/recipes/amulet_of_mana_boost.json
 9336968ca3afbcbcdcb1dfd5c8bbe859975835a0 data/ars_nouveau/recipes/amulet_of_mana_regen.json
@@ -22,6 +22,7 @@ c52ad8edcdf1c7977c62aee6b92bcd5958ca5938 data/ars_nouveau/recipes/blast_protecti
 98e034fc2375dd3318f97a09575a5b410574b008 data/ars_nouveau/recipes/blast_protection_2.json
 6ae90c36e9a70e9829169c6c7d56eb7cd5945f29 data/ars_nouveau/recipes/blast_protection_3.json
 76cdcbdd00c2b7cb0633107d824925f23fe7429f data/ars_nouveau/recipes/blast_protection_4.json
+9efec47935cea99164bd941343f810e117879847 data/ars_nouveau/recipes/blast_protection_5.json
 4e5dd650fe3f1d69c42144bcc7261a8d09a4408a data/ars_nouveau/recipes/brazier_relay.json
 299246baed94e4bc1502d0f29b65137b32ce65be data/ars_nouveau/recipes/channeling_1.json
 4a2cb24214fd9b451c7211225b81f3b147836972 data/ars_nouveau/recipes/depth_strider_1.json
@@ -53,6 +54,7 @@ fb75ff033757b5166c9fc6e37d84787728c88719 data/ars_nouveau/recipes/flame_1.json
 d2b2f282447266da862586db3cb1b6a4b54bbd25 data/ars_nouveau/recipes/fortune_1.json
 91083a12dbac0afdcb748883f43828247c0dfb87 data/ars_nouveau/recipes/fortune_2.json
 1a9355bb79dba529d4ad94d6cec892ee5374fe67 data/ars_nouveau/recipes/fortune_3.json
+abf44bb2893c15c7ba879a315616c0e4225feffb data/ars_nouveau/recipes/fortune_4.json
 ce63d717a55148c8ad403f4a4723a784647dfde2 data/ars_nouveau/recipes/frost_walker_1.json
 f2663bb3da839ae756b4a3cc1b52493597e02912 data/ars_nouveau/recipes/frost_walker_2.json
 18ef32104ff81a3fde8aa77bab875e2f848503bf data/ars_nouveau/recipes/impaling_1.json
@@ -69,6 +71,7 @@ f2663bb3da839ae756b4a3cc1b52493597e02912 data/ars_nouveau/recipes/frost_walker_2
 9c763c487814b13e74e22075272fc82fd00bb2a9 data/ars_nouveau/recipes/looting_1.json
 72fe872bcc3c0739ee7013448b86bc62006ddac2 data/ars_nouveau/recipes/looting_2.json
 482dfd65b85415dc4269cd67d7f75f4cb43eb6cc data/ars_nouveau/recipes/looting_3.json
+f2027dc537fbe260a843c0538951581ce5e100c1 data/ars_nouveau/recipes/looting_4.json
 1dc4aea661b7b8f9f59026269192802ec3746c18 data/ars_nouveau/recipes/loyalty_1.json
 acd75d5d43dee2b59af25a17fa40441f7dd71f14 data/ars_nouveau/recipes/loyalty_2.json
 66546265573bcdfd6d10e8f96c221c0f06ae02d9 data/ars_nouveau/recipes/loyalty_3.json
@@ -114,7 +117,7 @@ b87fae551f6d477fb27ec65fa68825a82668a7ca data/ars_nouveau/recipes/projectile_pro
 f1eb5ae43941f7c8107811d67a6a9a0be16253c8 data/ars_nouveau/recipes/protection_2.json
 e7bcf9af54e2b35ebfa8b6082c8d8c2d43805a87 data/ars_nouveau/recipes/protection_3.json
 60026834f6bef294f96caf58f8be4b7703b7e3db data/ars_nouveau/recipes/protection_4.json
-687ae58bf70a8d89b960a9eb3e0ef1d944e29d34 data/ars_nouveau/recipes/protection_5.json
+5bd42a3bcfcd2b72b1caaea03c629b9195044805 data/ars_nouveau/recipes/protection_5.json
 36701313aa05183b96adc7e930e5bbf0553dd88f data/ars_nouveau/recipes/punch_1.json
 2b879c663678ae19e8fd19b2ba0392caaa7c910c data/ars_nouveau/recipes/punch_2.json
 3c8ee69f00397b4082ba31d1ff72b6e5d2cc068c data/ars_nouveau/recipes/quick_charge_1.json

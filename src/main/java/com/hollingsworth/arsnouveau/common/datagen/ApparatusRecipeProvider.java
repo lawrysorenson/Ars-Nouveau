@@ -289,6 +289,11 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(3, Ingredient.of(Tags.Items.OBSIDIAN))
                 .withPedestalItem(1, Ingredient.of(Items.GOLD_INGOT))
                 .buildEnchantmentRecipe(Enchantments.BLAST_PROTECTION, 4, 120000));
+        addRecipe(builder()
+                .withPedestalItem(2, Ingredient.of(Tags.Items.INGOTS_IRON))
+                .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .withPedestalItem(4, Ingredient.of(Tags.Items.OBSIDIAN))
+                .buildEnchantmentRecipe(Enchantments.BLAST_PROTECTION, 5, 300000));
 
         addRecipe(builder()
                 .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
@@ -427,6 +432,12 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(2, Ingredient.of(Items.LAPIS_LAZULI))
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
                 .buildEnchantmentRecipe(Enchantments.BLOCK_FORTUNE, 3, 150000));
+        addRecipe(builder()
+                .withPedestalItem(3, ItemsRegistry.EARTH_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Items.RABBIT_FOOT))
+                .withPedestalItem(1, Ingredient.of(Items.LAPIS_LAZULI))
+                .withPedestalItem(3, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.BLOCK_FORTUNE, 4, 300000));
 
         addRecipe(builder()
                 .withPedestalItem(2, ItemsRegistry.WATER_ESSENCE)
@@ -557,7 +568,13 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(1, Ingredient.of(Items.EMERALD))
                 .withPedestalItem(1, Ingredient.of(Items.LAPIS_LAZULI))
                 .withPedestalItem(2, RecipeDatagen.SOURCE_GEM_BLOCK)
-                .buildEnchantmentRecipe(Enchantments.MOB_LOOTING, 3, 120000)); // try adding looting 4
+                .buildEnchantmentRecipe(Enchantments.MOB_LOOTING, 3, 120000));
+        addRecipe(builder()
+                .withPedestalItem(2, ItemsRegistry.EARTH_ESSENCE)
+                .withPedestalItem(2, ItemsRegistry.CONJURATION_ESSENCE)
+                .withPedestalItem(1, Ingredient.of(Items.LAPIS_LAZULI))
+                .withPedestalItem(3, RecipeDatagen.SOURCE_GEM_BLOCK)
+                .buildEnchantmentRecipe(Enchantments.MOB_LOOTING, 4, 300000));
 
         addRecipe(builder()
                 .withPedestalItem(1, ItemsRegistry.MANIPULATION_ESSENCE)
@@ -681,7 +698,7 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .withPedestalItem(3, ItemsRegistry.MANIPULATION_ESSENCE)
                 .withPedestalItem(4, ItemsRegistry.ABJURATION_ESSENCE)
                 .withPedestalItem(1, RecipeDatagen.SOURCE_GEM_BLOCK)
-                .buildEnchantmentRecipe(Enchantments.ALL_DAMAGE_PROTECTION, 5, 600000));
+                .buildEnchantmentRecipe(Enchantments.ALL_DAMAGE_PROTECTION, 5, 800000));
 
         addRecipe(builder()
                 .withPedestalItem(2, ItemsRegistry.AIR_ESSENCE)

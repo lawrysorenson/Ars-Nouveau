@@ -701,7 +701,7 @@ public class ApparatusRecipeProvider implements DataProvider {
                 .buildEnchantmentRecipe(Enchantments.ALL_DAMAGE_PROTECTION, 5, 800000));
         addRecipe(builder()
                 .withPedestalItem(8, Ingredient.of(Blocks.NETHERITE_BLOCK))
-                .buildEnchantmentRecipe(Enchantments.ALL_DAMAGE_PROTECTION, 6, 13000000));
+                .buildEnchantmentRecipe(Enchantments.ALL_DAMAGE_PROTECTION, 6, 6000000));
 
         addRecipe(builder()
                 .withPedestalItem(2, ItemsRegistry.AIR_ESSENCE)

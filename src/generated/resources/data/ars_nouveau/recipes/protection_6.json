@@ -1,0 +1,48 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:protection",
+  "level": 6,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    }
+  ],
+  "sourceCost": 13000000
+}

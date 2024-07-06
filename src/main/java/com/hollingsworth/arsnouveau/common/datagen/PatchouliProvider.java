@@ -766,7 +766,7 @@ public class PatchouliProvider implements DataProvider {
     }
 
     Map<Enchantment, Integer> raisedCaps = Map.ofEntries(
-        Map.entry(Enchantments.ALL_DAMAGE_PROTECTION, 5),
+        Map.entry(Enchantments.ALL_DAMAGE_PROTECTION, 6),
         Map.entry(Enchantments.FIRE_PROTECTION, 5),
         Map.entry(Enchantments.BLAST_PROTECTION, 5),
         Map.entry(Enchantments.PROJECTILE_PROTECTION, 5),

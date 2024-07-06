@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-05T18:14:09.56658262	Apparatus
+// 1.19.2	2024-07-06T09:12:38.839705113	Apparatus
 47c673376b4ffc5874674165c030f4e7213c87cb data/ars_nouveau/recipes/alchemists_crown.json
 9de96693a6f1f8acf98ddedc408117537e390b95 data/ars_nouveau/recipes/amulet_of_mana_boost.json
 9336968ca3afbcbcdcb1dfd5c8bbe859975835a0 data/ars_nouveau/recipes/amulet_of_mana_regen.json
@@ -118,6 +118,7 @@ f1eb5ae43941f7c8107811d67a6a9a0be16253c8 data/ars_nouveau/recipes/protection_2.j
 e7bcf9af54e2b35ebfa8b6082c8d8c2d43805a87 data/ars_nouveau/recipes/protection_3.json
 60026834f6bef294f96caf58f8be4b7703b7e3db data/ars_nouveau/recipes/protection_4.json
 5bd42a3bcfcd2b72b1caaea03c629b9195044805 data/ars_nouveau/recipes/protection_5.json
+9ae055e800a44e69354132822f4bdba0e420e0fb data/ars_nouveau/recipes/protection_6.json
 36701313aa05183b96adc7e930e5bbf0553dd88f data/ars_nouveau/recipes/punch_1.json
 2b879c663678ae19e8fd19b2ba0392caaa7c910c data/ars_nouveau/recipes/punch_2.json
 3c8ee69f00397b4082ba31d1ff72b6e5d2cc068c data/ars_nouveau/recipes/quick_charge_1.json

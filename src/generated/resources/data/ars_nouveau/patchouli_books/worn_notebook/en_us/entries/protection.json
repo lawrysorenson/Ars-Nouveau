@@ -22,6 +22,10 @@
     {
       "type": "ars_nouveau:enchanting_recipe",
       "recipe": "ars_nouveau:protection_5"
+    },
+    {
+      "type": "ars_nouveau:enchanting_recipe",
+      "recipe": "ars_nouveau:protection_6"
     }
   ]
 }

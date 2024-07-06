@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-05T18:10:30.63387068	Patchouli
+// 1.19.2	2024-07-06T09:12:38.837291782	Patchouli
 d5f03c259d2af4f5e8e286639783f4fc833b1076 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/aqua_affinity.json
 2ec536fea831588201432d61d70af61385882054 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/armor/alteration_table.json
 a82f4fc73946d228b1e3f5e03d0ecef46f33cdfb data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/armor/applying_perks.json
@@ -206,7 +206,7 @@ ef537c19f4d82731675ea19c6b24223bc44f97a1 data/ars_nouveau/patchouli_books/worn_n
 0cefd41fde33d02b5e267590e57bcdac8d99f061 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/piercing.json
 8db5d0ed0a7194aea0ea3472164d466ce5b45b3d data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/power.json
 6c1b5d2a655fc3446bc4c988e6ec85e0e0f90e27 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/projectile_protection.json
-d0c19aff0df099a8c9a14078d94c39d67e3e785c data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/protection.json
+35be2360a8596b498158250a091fadd8ed347cb2 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/protection.json
 3bac46c81e3334e1b3e3d0bfe903dd9ddd7c62e7 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/punch.json
 01a9b8de671af3355f8e6dd3ae9864a704d1c236 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/quick_charge.json
 c0133d1f6bc4d504f978862421be5322cce9a8f2 data/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/resources/archwood.json

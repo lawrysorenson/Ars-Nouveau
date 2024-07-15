@@ -176,9 +176,10 @@ public class RecipeDatagen extends RecipeProvider {
             shapedWoodenTrapdoor(consumer, BlockRegistry.ARCHWOOD_TRAPDOOR, BlockRegistry.ARCHWOOD_PLANK);
 
             ShapedRecipeBuilder.shaped(BlockRegistry.SOURCE_GEM_BLOCK, 1)
-                    .pattern("xx")
-                    .pattern("xx").define('x', SOURCE_GEM).unlockedBy("has_journal", InventoryChangeTrigger.TriggerInstance.hasItems(ItemsRegistry.WORN_NOTEBOOK)).save(consumer);
-            shapelessBuilder(ItemsRegistry.SOURCE_GEM, 4).requires(BlockRegistry.SOURCE_GEM_BLOCK, 1).save(consumer, new ResourceLocation(ArsNouveau.MODID, "source_gem_block_2"));
+                    .pattern("xxx")
+                    .pattern("xxx")
+                    .pattern("xxx").define('x', SOURCE_GEM).unlockedBy("has_journal", InventoryChangeTrigger.TriggerInstance.hasItems(ItemsRegistry.WORN_NOTEBOOK)).save(consumer);
+            shapelessBuilder(ItemsRegistry.SOURCE_GEM, 9).requires(BlockRegistry.SOURCE_GEM_BLOCK, 1).save(consumer, new ResourceLocation(ArsNouveau.MODID, "source_gem_block_2"));
             shapelessBuilder(Items.LEATHER, 1).requires(ItemsRegistry.WILDEN_WING).save(consumer, new ResourceLocation(ArsNouveau.MODID, "wing_to_leather"));
             shapelessBuilder(Items.BONE_MEAL, 3).requires(ItemsRegistry.WILDEN_HORN).save(consumer, new ResourceLocation(ArsNouveau.MODID, "horn_to_bonemeal"));
             shapelessBuilder(Items.ORANGE_DYE, 5).requires(ItemsRegistry.WILDEN_SPIKE).save(consumer, new ResourceLocation(ArsNouveau.MODID, "spike_to_dye"));

@@ -6,8 +6,9 @@
     }
   },
   "pattern": [
-    "xx",
-    "xx"
+    "xxx",
+    "xxx",
+    "xxx"
   ],
   "result": {
     "item": "ars_nouveau:source_gem_block"

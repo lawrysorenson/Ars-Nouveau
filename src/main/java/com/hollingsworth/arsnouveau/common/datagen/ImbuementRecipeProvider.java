@@ -33,50 +33,50 @@ public class ImbuementRecipeProvider implements DataProvider {
 
     @Override
     public void run(CachedOutput cache) throws IOException {
-        recipes.add(new ImbuementRecipe("lapis", Ingredient.of(Tags.Items.GEMS_LAPIS), ItemsRegistry.SOURCE_GEM.get().getDefaultInstance(), 500));
-        recipes.add(new ImbuementRecipe("amethyst", Ingredient.of(Items.AMETHYST_SHARD), ItemsRegistry.SOURCE_GEM.get().getDefaultInstance(), 500));
-        recipes.add(new ImbuementRecipe("amethyst_block", Ingredient.of(Items.AMETHYST_BLOCK), new ItemStack(BlockRegistry.SOURCE_GEM_BLOCK), 2000));
-        recipes.add(new ImbuementRecipe("fire_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.FIRE_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("lapis", Ingredient.of(Tags.Items.GEMS_LAPIS), ItemsRegistry.SOURCE_GEM.get().getDefaultInstance(), 2500));
+        recipes.add(new ImbuementRecipe("amethyst", Ingredient.of(Items.AMETHYST_SHARD), ItemsRegistry.SOURCE_GEM.get().getDefaultInstance(), 2500));
+        recipes.add(new ImbuementRecipe("amethyst_block", Ingredient.of(Items.AMETHYST_BLOCK), new ItemStack(BlockRegistry.SOURCE_GEM_BLOCK), 15000));
+        recipes.add(new ImbuementRecipe("fire_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.FIRE_ESSENCE.get()), 10000)
                 .withPedestalItem(Items.FLINT_AND_STEEL)
                 .withPedestalItem(Items.TORCH).withPedestalItem(Items.GUNPOWDER));
-        recipes.add(new ImbuementRecipe("air_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.AIR_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("air_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.AIR_ESSENCE.get()), 10000)
                 .withPedestalItem(Items.FEATHER)
                 .withPedestalItem(ItemsRegistry.WILDEN_WING)
                 .withPedestalItem(Ingredient.of(ItemTags.ARROWS)));
-        recipes.add(new ImbuementRecipe("earth_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.EARTH_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("earth_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.EARTH_ESSENCE.get()), 10000)
                 .withPedestalItem(Ingredient.of(Tags.Items.INGOTS_IRON))
                 .withPedestalItem(Ingredient.of(Tags.Items.SEEDS))
                 .withPedestalItem(Ingredient.of(ItemTags.DIRT)));
-        recipes.add(new ImbuementRecipe("water_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.WATER_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("water_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.WATER_ESSENCE.get()), 10000)
                 .withPedestalItem(Items.WATER_BUCKET)
                 .withPedestalItem(Items.SNOW_BLOCK)
                 .withPedestalItem(Items.KELP));
-        recipes.add(new ImbuementRecipe("conjuration_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.CONJURATION_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("conjuration_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.CONJURATION_ESSENCE.get()), 10000)
                 .withPedestalItem(ItemsRegistry.WILDEN_HORN)
                 .withPedestalItem(ItemsRegistry.STARBUNCLE_SHARD)
                 .withPedestalItem(Items.BOOK));
 
-        recipes.add(new ImbuementRecipe("abjuration_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.ABJURATION_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("abjuration_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.ABJURATION_ESSENCE.get()), 10000)
                 .withPedestalItem(Items.FERMENTED_SPIDER_EYE)
                 .withPedestalItem(Items.SUGAR)
                 .withPedestalItem(Items.MILK_BUCKET));
 
-        recipes.add(new ImbuementRecipe("manipulation_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.MANIPULATION_ESSENCE.get()), 2000)
+        recipes.add(new ImbuementRecipe("manipulation_essence", RecipeDatagen.SOURCE_GEM, new ItemStack(ItemsRegistry.MANIPULATION_ESSENCE.get()), 10000)
                 .withPedestalItem(Items.STONE_BUTTON)
                 .withPedestalItem(Items.REDSTONE)
                 .withPedestalItem(Items.CLOCK));
 
-        recipes.add(new ImbuementRecipe("pierce_arrow", Ingredient.of(ItemTags.ARROWS), new ItemStack(ItemsRegistry.PIERCE_ARROW.get()), 100)
+        recipes.add(new ImbuementRecipe("pierce_arrow", Ingredient.of(ItemTags.ARROWS), new ItemStack(ItemsRegistry.PIERCE_ARROW.get()), 500)
                 .withPedestalItem(ItemsRegistry.SOURCE_GEM.get())
                 .withPedestalItem(ItemsRegistry.AIR_ESSENCE.get())
                 .withPedestalItem(ItemsRegistry.WILDEN_SPIKE.get()));
 
-        recipes.add(new ImbuementRecipe("amplify_arrow", Ingredient.of(ItemTags.ARROWS), new ItemStack(ItemsRegistry.AMPLIFY_ARROW.get()), 100)
+        recipes.add(new ImbuementRecipe("amplify_arrow", Ingredient.of(ItemTags.ARROWS), new ItemStack(ItemsRegistry.AMPLIFY_ARROW.get()), 500)
                 .withPedestalItem(ItemsRegistry.SOURCE_GEM.get())
                 .withPedestalItem(ItemsRegistry.AIR_ESSENCE.get())
                 .withPedestalItem(Ingredient.of(Tags.Items.GEMS_DIAMOND)));
 
-        recipes.add(new ImbuementRecipe("split_arrow", Ingredient.of(ItemTags.ARROWS), new ItemStack(ItemsRegistry.SPLIT_ARROW.get()), 100)
+        recipes.add(new ImbuementRecipe("split_arrow", Ingredient.of(ItemTags.ARROWS), new ItemStack(ItemsRegistry.SPLIT_ARROW.get()), 500)
                 .withPedestalItem(ItemsRegistry.SOURCE_GEM.get())
                 .withPedestalItem(ItemsRegistry.AIR_ESSENCE.get())
                 .withPedestalItem(ItemsRegistry.WILDEN_HORN.get()));

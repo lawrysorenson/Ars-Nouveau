@@ -146,14 +146,13 @@ public class GlyphRecipeProvider implements DataProvider {
     }
 
     public int getExpFromTier(AbstractSpellPart spellPart) {
-
         return switch (spellPart.defaultTier().value) {
             case (1):
-                yield 27;
-            case (2):
-                yield 55;
-            case 3:
                 yield 160;
+            case (2):
+                yield 550;
+            case 3:
+                yield 1395;
             default:
                 yield 0;
         };

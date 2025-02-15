@@ -20,12 +20,12 @@ public class RepairingPerk extends Perk {
     }
 
     public static void attemptRepair(ItemStack stack, Player entity){
-        if(entity.level.getGameTime() % 200 != 0 || stack.getDamageValue() <= 0)
+        if(entity.level.getGameTime() % 1000 != 0 || stack.getDamageValue() <= 0)
             return;
         double repairLevel = PerkUtil.countForPerk(RepairingPerk.INSTANCE, entity);
         CapabilityRegistry.getMana(entity).ifPresent(mana -> {
-            if (mana.getCurrentMana() > 20) {
-                mana.removeMana(20);
+            if (mana.getCurrentMana() > 40) {
+                mana.removeMana(40);
                 stack.setDamageValue(stack.getDamageValue() - Math.min(stack.getDamageValue(), (int)repairLevel + 1));
             }
         });

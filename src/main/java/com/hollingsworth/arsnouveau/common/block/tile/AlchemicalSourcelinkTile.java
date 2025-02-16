@@ -20,7 +20,7 @@ public class AlchemicalSourcelinkTile extends SourcelinkTile {
 
     @Override
     public int getMaxSource() {
-        return 200000;
+        return 20000;
     }
 
     @Override
@@ -34,16 +34,16 @@ public class AlchemicalSourcelinkTile extends SourcelinkTile {
         if (level instanceof ServerLevel && level.getGameTime() % 20 == 0 && this.canAcceptSource()) {
             BlockPos potionPos = findNearbyPotion(level, worldPosition);
             if (potionPos != null && level.getBlockEntity(potionPos) instanceof PotionJarTile tile) {
-                int source = 3;
+                int source = 75;
                 Set<MobEffect> effectTypes = new HashSet<>();
                 for (MobEffectInstance e : tile.getData().fullEffects()) {
-                    source += (e.getDuration() / 800);
-                    source += e.getAmplifier() * 15;
-                    source += 7;
+                    source += (e.getDuration() / 50);
+                    source += e.getAmplifier() * 250;
+                    source += 150;
                     effectTypes.add(e.getEffect());
                 }
                 if (effectTypes.size() > 1) {
-                    source *= Math.pow(2.1, effectTypes.size());
+                    source *= Math.pow(1.05, effectTypes.size());
                 }
                 if (source > 0 && canAcceptSource(source) || this.getSource() <= 0) {
                     addSource(source);
